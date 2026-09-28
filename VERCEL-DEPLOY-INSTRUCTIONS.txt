@@ -1,0 +1,14 @@
+Framework Preset:
+Other
+
+Root Directory:
+LEAVE EMPTY
+
+Build Command:
+LEAVE EMPTY
+
+Output Directory:
+.
+
+Install Command:
+LEAVE EMPTY

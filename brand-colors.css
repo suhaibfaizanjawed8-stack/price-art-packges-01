@@ -1,0 +1,125 @@
+/* Prince Art Packages palette, matching the original company website. */
+:root {
+  --ink: #0b2545;
+  --muted: #3e4c59;
+  --paper: #f7f8fa;
+  --line: #dce5eb;
+  --navy-dark: #0b2545;
+  --navy-primary: #12305c;
+  --teal-brand: #139ea8;
+  --teal-primary: #1c7c8c;
+  --teal-dark: #0e6b77;
+  --teal-bg: #eaf5f6;
+  --gold-accent: #c9a24b;
+  --gold-dark: #806018;
+  --text-body: #3e4c59;
+  --text-muted: #616e7c;
+  --text-charcoal: #1f2933;
+  --border-color: #dce5eb;
+  --bg-white: #fff;
+}
+::selection { background: #139ea8; color: #fff; }
+a:focus-visible, button:focus-visible, summary:focus-visible,
+input:focus, select:focus, textarea:focus { outline-color: var(--teal-primary); }
+.site-header { background: rgba(255,255,255,.96); color: var(--navy-dark); box-shadow: 0 10px 40px #0b25451a; }
+.brand-monogram { color: var(--teal-dark); }
+.brand-small { color: var(--teal-dark); }
+.desktop-nav a:after { background: var(--teal-brand); height: 2px; }
+.desktop-nav a:hover, .desktop-nav a[aria-current], #mobile-menu a[aria-current] { color: var(--teal-dark); }
+.nav-cta { background: var(--gold-accent); color: var(--navy-dark); font-weight: 600; }
+.nav-cta:hover { background: #dab65e; }
+.reading-progress { background: var(--teal-brand); }
+#mobile-menu { background: #fff; border-color: var(--line); }
+#mobile-menu a { border-color: var(--line); }
+.cinematic-hero { background: radial-gradient(ellipse at 55% 35%,#174c64 0%,#0b2545 55%,#06192e 100%); }
+.orbit-card { border-color: #5a899b; box-shadow: 0 30px 70px #03132270; }
+.orbit-card:hover { border-color: var(--gold-accent); }
+.orbit-card img, .orbit-card:hover img { filter: none; }
+.orbit-main { background: var(--navy-dark); border-color: #50798c; }
+.hero-image { background: #dcebf0; }
+.hero-image>img { filter: brightness(.86); }
+.hero-image:after { background: linear-gradient(180deg,#0b254522 10%,transparent 32%,#071c37e8 100%); }
+.hero-location { background: #0b2545d9; color: #fff; border-color: #9cd1d880; }
+.hero-card-title .eyebrow { color: #efd48f; }
+.hero-card-title h1 { color: #fff; }
+.hero-card-bottom p { color: #d8e7ee; }
+.hero-card-bottom a { color: var(--navy-dark); background: var(--gold-accent); border-color: var(--gold-accent); }
+.hero-card-bottom a:hover { background: #e4c47d; }
+.orbit-card>span { background: var(--navy-dark); color: #e5f1f4; }
+.hero-edge { color: #b7d2dd; }
+.hero-edge span:first-child:before { background: var(--gold-accent); }
+.scroll-cue { color: #e5eff4; }
+.scroll-cue span { border-color: #7296aa; color: #efd48f; }
+.eyebrow, .section-subtitle, .hero-badge-item, .cap-eyebrow,
+.product-category-pill, .rfq-card-badge, .cert-pill, .map-card-badge { color: var(--teal-dark); }
+.btn { color: var(--navy-dark); border-color: #a3bac7; }
+.btn:hover { background: #e5f3f4; border-color: var(--teal-primary); }
+.btn-gold { background: var(--gold-accent); color: var(--navy-dark); border-color: var(--gold-accent); font-weight: 600; }
+.btn-gold:hover { background: #dab65e; border-color: #dab65e; }
+.btn-navy { background: var(--navy-dark); color: #fff; border-color: var(--navy-dark); }
+.btn-navy:hover { background: var(--navy-primary); color: #fff; }
+.text-link, .form-note a { color: var(--teal-dark); border-color: var(--teal-primary); }
+.trust-bar { background: #fff; border-bottom-color: #cce1e7; }
+.trust-icon, .value-card-icon, .usp-card-icon, .industry-card-icon,
+.pillar-icon, .quote-benefit-icon, .intro-pillar-icon, .metric-badge-icon { color: var(--teal-primary); }
+.value-card, .usp-card, .industry-card, .cap-flow-step { border-top-color: #9bc9d0; }
+.value-card-num, .usp-card-num { color: var(--teal-dark); }
+.card, .surface-panel, .intro-pillar-card, .pillar-box { background: #edf3f6; }
+.surface-panel .surface-panel { background: #e1edf2; }
+.intro-pillar-tag { color: var(--teal-dark); }
+.product-card .btn { color: var(--teal-dark); border-color: #a9c9d2; }
+.card.product-slide-card { background: transparent; }
+.product-slider-section, .industries-section, .faq-section { background: #fff; }
+.slider-btn { color: var(--teal-dark); border-color: #99bec7; }
+.slider-btn:hover { background: var(--teal-dark); color: #fff; }
+.slider-dot:before { background: #9db8c3; }
+.slider-dot.active:before { background: var(--teal-dark); }
+.quality-section, .cap-scale-section { background: var(--navy-dark); color: #fff; }
+.quality-section p, .cap-scale-section p { color: #c5d9e4; }
+.quality-section .section-subtitle { color: #77d5dc; }
+.quality-section .btn { color: #fff; border-color: #7c9aaf; }
+.quality-section .btn:hover { background: #174761; }
+.quality-pillar-card { border-color: #39617b; }
+.quality-section .pillar-icon { color: #77d5dc; }
+.cert-pill-item { border-color: #52748d; color: #f1f6f9; }
+.cert-pill-item small { color: #c0d3dd; }
+.metric-badge-content strong { color: var(--teal-dark); }
+.metric-badge-content span { color: #526573; }
+.testimonial-card { border-color: #aec8d2; }
+.testi-stars { color: #8a6416; }
+.testi-quote { color: #30485d; }
+.author-avatar { background: #dfedef; color: var(--teal-dark); }
+.author-company { color: #526573; }
+.quote-form input, .quote-form textarea, .quote-form select { color: var(--navy-dark); border-color: #9db7c5; }
+.form-status:not(:empty) { background: #e5f3f4; border-color: var(--teal-primary); color: var(--navy-dark); }
+details { border-color: #b2c7d2; }
+details[open] summary, .faq-icon { color: var(--teal-dark); }
+.innovation-banner { background: #e7f2f4; }
+.interior-content .product-hero-section { background: linear-gradient(115deg,#0b2545,#123b57); }
+.product-hero-section p, .product-hero-section .breadcrumb-nav { color: #c4d9e5; }
+.product-hero-section .product-category-pill { color: #7ed6dc; }
+.product-hero-section .btn { color: #fff; border-color: #8ba8b8; }
+.product-hero-section .btn:hover { background: #20546c; }
+.product-hero-section .btn-gold { background: var(--gold-accent); color: var(--navy-dark); border-color: var(--gold-accent); }
+.product-hero-section .btn-gold:hover { background: #dab65e; }
+.product-image-caption { color: #526573; }
+.cap-infra-badge, .badge-tech { color: var(--teal-dark); }
+.cap-big-spec { color: var(--teal-dark); }
+.cap-flow-num { color: var(--teal-primary); }
+.cap-scale-number { color: #efd48f; }
+.map-location-card, .contact-info-list li { border-color: #b2c7d2; }
+.map-audit-note { background: #e7f2f4; }
+.specs-dialog { border-color: #aac6d1; }
+.specs-dialog::backdrop { background: #05192cba; }
+.specs-updated-badge { color: var(--teal-dark); }
+th { background: #e0edf2; color: var(--navy-dark); }
+th, td { border-color: #c4d6de; }
+tr:hover td { background: #e8f3f5; }
+.site-footer { background: var(--navy-dark); color: #f5f8fa; }
+.site-footer .eyebrow, .footer-links span { color: #87d5da; }
+.footer-contact p, .footer-links p, .footer-bottom, .back-top { color: #c0d2de; }
+.footer-links, .footer-bottom { border-color: #34536c; }
+.footer-wordmark { color: #e5eff5; }
+.footer-invite span { color: var(--gold-accent); }
+.site-footer a:hover { color: #efd48f; }
+@media print { .specs-dialog { color: #111; background: #fff; } }
